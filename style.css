@@ -1,0 +1,9 @@
+div {
+  border: 2px solid red;
+  color: green;
+}
+
+div:hover {
+  color: orange;
+}
+/*# sourceMappingURL=style.css.map */
