@@ -1,9 +1,62 @@
-div {
-  border: 2px solid red;
-  color: green;
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-div:hover {
-  color: orange;
+.parentContain {
+  border: 2px solid paleturquoise;
+  background-color: paleturquoise;
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.parentContain .mainContain {
+  border: 2px solid red;
+  height: 80%;
+  width: 25%;
+}
+
+.parentContain .mainContain .titleContain {
+  border: 2px solid blue;
+  height: 25%;
+}
+
+.parentContain .mainContain .listContain {
+  border: 2px solid yellow;
+  height: 75%;
+}
+
+.parentContain .mainContain .listContain #form {
+  border: 2px solid pink;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+}
+
+.parentContain .mainContain .listContain .list ul {
+  display: none;
+}
+
+.parentContain .mainContain .listContain .list li {
+  list-style: none;
+  margin-top: 2rem;
 }
 /*# sourceMappingURL=style.css.map */
